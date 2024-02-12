@@ -121,7 +121,7 @@ const NavigationMenuBar = () => {
                     <div className="mt-20">
                         {activeMenu === menu && (
                             <ContenMenu
-                                options={options.map((option, index) => (
+                                options={options.map((option) => (
                                     {
                                         ...option,
                                         href: option.href

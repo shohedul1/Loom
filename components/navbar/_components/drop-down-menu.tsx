@@ -48,7 +48,7 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
         onClose();
     }
     return (
-        <div className="w-screen h-screen bg-gray-400 pt-10 pb-20 px-10 items-center justify-center absolute top-[94px] right-0 xl:hidden overflow-x-auto ">
+        <div className="w-screen h-screen bg-gray-400 pt-10 pb-20 px-10 items-center justify-center absolute top-[74px] right-0 xl:hidden overflow-x-auto ">
 
             <Accordion type="single" collapsible className="pt-2">
                 <AccordionItem value="item-1">
