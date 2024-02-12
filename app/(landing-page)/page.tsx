@@ -5,6 +5,9 @@ const LandingPage = () => {
   return (
     <div>
         <Navbar/>
+        <div>
+          hello world
+        </div>
     </div>
   )
 }
