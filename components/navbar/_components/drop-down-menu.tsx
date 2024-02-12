@@ -208,8 +208,6 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
                     <div><ArrowRight className="h-6 w-6" /></div>
                 </Link>
 
-            </Accordion>
-
             <div className="md:pt-20 pt-10">
                 <div className="flex items-center justify-center space-x-4">
                     <Link href={"/sign-in"}>
@@ -232,8 +230,9 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
 
 
                 </div>
-
             </div>
+            </Accordion>
+
 
         </div>
     )
