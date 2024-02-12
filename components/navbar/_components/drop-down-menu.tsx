@@ -207,30 +207,29 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
                     Contact Seles
                     <div><ArrowRight className="h-6 w-6" /></div>
                 </Link>
+                <div className="md:pt-20 pt-10">
+                    <div className="flex items-center justify-center space-x-4">
+                        <Link href={"/sign-in"}>
+                            <Button
+                                className=" md:hidden xl:hidden text-md text-[#565add] py-6 font-light bg-[#eff0ff] rounded-[40px] border-4 hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
+                            >
+                                Signin to logo
+                            </Button>
 
-            <div className="md:pt-20 pt-10">
-                <div className="flex items-center justify-center space-x-4">
-                    <Link href={"/sign-in"}>
-                        <Button
-                            className=" md:hidden xl:hidden text-md text-[#565add] py-6 font-light bg-[#eff0ff] rounded-[40px] border-4 hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
-                        >
-                            Signin to logo
-                        </Button>
+                        </Link>
+                        <Link href={"/free"}>
+                            <Button
+                                className=" md:hidden xl:hidden text-md text-[#eff0ff] py-6 font-light bg-[#565add] rounded-[40px] border-4 border-[#9497e1] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
+                            >
+                                Try Bird for Free
 
-                    </Link>
-                    <Link href={"/free"}>
-                        <Button
-                            className=" md:hidden xl:hidden text-md text-[#eff0ff] py-6 font-light bg-[#565add] rounded-[40px] border-4 border-[#9497e1] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
-                        >
-                            Try Bird for Free
-
-                        </Button>
-                    </Link>
-
+                            </Button>
+                        </Link>
 
 
+
+                    </div>
                 </div>
-            </div>
             </Accordion>
 
 
