@@ -46,11 +46,11 @@ const items: MenuItem[] = [
         options: [
             { label: "Team Alignment", emoji: <UserPlus className="text-orange-500" />, href: 'team-alignment' },
             { label: "Seles", emoji: <DollarSign className="text-gray-500" />, href: 'seles' },
-            { label: "Enginnering", emoji: <DollarSign className="text-blue-500" />, href: '/enginnering' },
+            { label: "Enginnering", emoji: <Building className="text-blue-500" />, href: '/enginnering' },
             { label: "Design", emoji: <Code className="text-rose-500" />, href: '/design' },
             { label: "Marketing", emoji: <PaintBucket className="text-indigo-500" />, href: '/marketing' },
-            { label: "Customer Support", emoji: <BarChart className="text-indigo-500" />, href: '/customer-support' },
-            { label: "Product Management", emoji: <Settings className="text-indigo-500" />, href: '/product-management' },
+            { label: "Customer Support", emoji: <BarChart className="text-indigo-400" />, href: '/customer-support' },
+            { label: "Product Management", emoji: <Settings className="text-lime-500" />, href: '/product-management' },
             { label: "Education", emoji: <GraduationCap className="text-indigo-500" />, href: '/education' },
         ]
 
@@ -114,8 +114,8 @@ const NavigationMenuBar = () => {
                 onMouseEnter={() => handleMouseEnter(menu)}
                 onMouseLeave={handleMouseLeave}>
                 <div className="flex items-center">
-                    <div className=" flex items-center gap-2">
-                        {title}
+                    <div className=" flex items-center">
+                       <div className="w-24">{title}</div>
                         <div><ChevronDown className="h-5 w-3" /></div>
                     </div>
                     <div className="mt-20">
@@ -146,7 +146,6 @@ const NavigationMenuBar = () => {
                         <div className="cursor-pointer hidden xl:block">
                             {rendrMenu(item)}
                         </div>
-
                     </React.Fragment>
                 ))
             }
