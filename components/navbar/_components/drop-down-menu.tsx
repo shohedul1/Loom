@@ -48,7 +48,7 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
         onClose();
     }
     return (
-        <div className="w-screen h-full bg-gray-400 pt-10 px-10 items-center justify-center absolute top-[94px] right-0 xl:hidden ">
+        <div className="w-screen h-screen bg-gray-400 pt-10 pb-20 px-10 items-center justify-center absolute top-[94px] right-0 xl:hidden overflow-x-auto ">
 
             <Accordion type="single" collapsible className="pt-2">
                 <AccordionItem value="item-1">
@@ -206,30 +206,30 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
                     Contact Seles
                     <div><ArrowRight className="h-6 w-6" /></div>
                 </Link>
-                <div className="md:pt-20 pt-10">
-                    <div className="flex items-center justify-center space-x-4">
-                        <Link href={"/sign-in"}>
-                            <Button
-                                className=" md:hidden xl:hidden text-md text-[#565add] py-6 font-light bg-[#eff0ff] rounded-[40px] border-4 hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
-                            >
-                                Signin to logo
-                            </Button>
-
-                        </Link>
-                        <Link href={"/free"}>
-                            <Button
-                                className=" md:hidden xl:hidden text-md text-[#eff0ff] py-6 font-light bg-[#565add] rounded-[40px] border-4 border-[#9497e1] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
-                            >
-                                Try Bird for Free
-
-                            </Button>
-                        </Link>
-
-
-
-                    </div>
-                </div>
             </Accordion>
+            <div className="md:pt-20 pt-10 pb-20">
+                <div className="flex items-center justify-center space-x-4">
+                    <Link href={"/sign-in"}>
+                        <Button
+                            className=" md:hidden xl:hidden text-md text-[#565add] py-6 font-light bg-[#eff0ff] rounded-[40px] border-4 hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
+                        >
+                            Signin to logo
+                        </Button>
+
+                    </Link>
+                    <Link href={"/free"}>
+                        <Button
+                            className=" md:hidden xl:hidden text-md text-[#eff0ff] py-6 font-light bg-[#565add] rounded-[40px] border-4 border-[#9497e1] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
+                        >
+                            Try Bird for Free
+
+                        </Button>
+                    </Link>
+
+
+
+                </div>
+            </div>
 
 
         </div>
