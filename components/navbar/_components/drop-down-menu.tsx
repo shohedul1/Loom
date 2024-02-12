@@ -48,7 +48,7 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
         onClose();
     }
     return (
-        <div className="w-screen h-screen bg-gray-400 pt-10 px-10 items-center justify-center absolute top-[94px] right-0 xl:hidden ">
+        <div className="w-screen h-full bg-gray-400 pt-10 px-10 items-center justify-center absolute top-[94px] right-0 xl:hidden ">
 
             <Accordion type="single" collapsible className="pt-2">
                 <AccordionItem value="item-1">
@@ -200,7 +200,6 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
                     Pricing
                     <div><ArrowRight className="h-6 w-6" /></div>
                 </Link>
-
 
                 <Link href={"/contact"}
                     className="flex flex-1 items-center justify-between text-xl px-6 my-4 hover:text-lime-500 ">
