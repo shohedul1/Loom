@@ -1,5 +1,7 @@
 import React from 'react'
 import SliderOne from './_components/slider-one'
+import SliderTwo from './_components/slider-two'
+import SliderThird from './_components/slider-third'
 
 const Sliders = () => {
     return (
@@ -9,6 +11,8 @@ const Sliders = () => {
             </div>
            <div className='pt-20'>
            <SliderOne />
+           <SliderTwo/>
+           <SliderThird/>
            </div>
         </div>
     )

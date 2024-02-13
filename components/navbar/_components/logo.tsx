@@ -11,6 +11,7 @@ const Logo = () => {
             alt='image'
             width={100}
             height={100}
+            style={{ width: "auto", height: "auto" }} // Adjusted style
             className='w-40'
             property="true"
             
