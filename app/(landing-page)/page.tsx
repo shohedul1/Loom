@@ -5,6 +5,9 @@ import Sliders from './_components/slider/slider';
 import SecondSection from './_components/second-section';
 import ThirdSection from './_components/third-section';
 import FourtSection from './_components/fout-section';
+import FiveSection from './_components/five-section';
+import SixSection from './_components/six-section';
+import SevenSection from './_components/seven-section';
 
 const LandingPage = () => {
   return (
@@ -15,6 +18,9 @@ const LandingPage = () => {
       <SecondSection />
       <ThirdSection />
       <FourtSection/>
+      <FiveSection/>
+      <SixSection/>
+      <SevenSection/>
 
     </div>
   )
