@@ -18,11 +18,11 @@ const EightSectiton = () => {
                                 <div className="md:text-6xl text-4xl w-full text-center">
                                     How to use async video messaging to improve communication
                                 </div>
-                               
+
 
 
                                 <div className="md:flex md:space-x-10 space-y-10 md:space-y-0 items-center justify-center px-10 md:px-20">
-                                   
+
                                     <div className="md:w-1/2 bg-[#9f92ec] rounded-[60px] p-10 md:p-20 space-y-10 items-center justify-center flex flex-col hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] hover:scale-105">
                                         <div className="text-3xl">
                                             When to Choose Synchronous Vs. Asynchronous Communication
@@ -39,10 +39,10 @@ const EightSectiton = () => {
 
                                     <div className="md:w-1/2 bg-[#9f92ec] rounded-[60px] p-10 md:p-20 space-y-10 items-center justify-center flex flex-col hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] hover:scale-105 ">
                                         <div className="text-3xl">
-                                        7 Tips for Overcoming Camera Anxiety
+                                            7 Tips for Overcoming Camera Anxiety
                                         </div>
                                         <p className="leading-[35px] items-center flex justify-center">
-                                        It can feel vulnerable to record a video message — almost like public speaking — especially if you&apos;re not getting feedback from another person in real life. Here are 7 tips for overcoming camera anxiety, so you can communicate with greater clarity, and build stronger relationships at work.
+                                            It can feel vulnerable to record a video message — almost like public speaking — especially if you&apos;re not getting feedback from another person in real life. Here are 7 tips for overcoming camera anxiety, so you can communicate with greater clarity, and build stronger relationships at work.
                                         </p>
                                         <div className="flex space-x-10">
                                             <span>Read the article</span>
@@ -50,22 +50,6 @@ const EightSectiton = () => {
 
                                         </div>
                                     </div>
-{/* 
-                                    <div className="md:w-1/2 bg-[#9f92ec] rounded-[60px] p-10 md:p-20 space-y-10 items-center justify-center flex flex-col hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] hover:scale-105">
-                                        <div className="text-3xl">
-                                          
-                                        </div>
-                                        <p className="leading-10 items-center md:h-40 flex justify-center">
-                                           
-                                        </p>
-                                        <div className="flex space-x-10">
-                                            <span>Read the article</span>
-                                            <ArrowRight className="text-3xl" />
-
-                                        </div>
-
-                                    </div> */}
-
                                 </div>
 
                                 <div className="pb-10 md:pb-0">

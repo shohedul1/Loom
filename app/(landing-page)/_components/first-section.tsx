@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const FirstSection = () => {
     return (
-        <div className="mt-[20px]">
+        
             <section className="xl:py-36 py-10 px-10 bg-[#d1d1f7]">
                 <div className="md:items-center flex flex-col">
                     <div className="lg:text-5xl xl:text-6xl text-4xl justify-center font-medium text-[#2b1c50] pt-10">
@@ -35,7 +35,7 @@ const FirstSection = () => {
                 </div>
 
             </section>
-        </div>
+      
     )
 }
 

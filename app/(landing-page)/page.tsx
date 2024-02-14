@@ -9,6 +9,7 @@ import FiveSection from './_components/five-section';
 import SixSection from './_components/six-section';
 import SevenSection from './_components/seven-section';
 import EightSectiton from './_components/eight-section';
+import NineSection from './_components/nine-section';
 
 const LandingPage = () => {
   return (
@@ -23,6 +24,7 @@ const LandingPage = () => {
       <SixSection/>
       <SevenSection/>
       <EightSectiton/>
+      <NineSection/>
 
     </div>
   )
