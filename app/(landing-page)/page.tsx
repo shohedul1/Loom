@@ -11,6 +11,9 @@ import SevenSection from './_components/seven-section';
 import EightSectiton from './_components/eight-section';
 import NineSection from './_components/nine-section';
 import TenthSection from './_components/tenth-section';
+import ButtomCard from './_components/buttom-card';
+import ButtomSection from './_components/bottom-section';
+import Footer from './_components/footer';
 
 const LandingPage = () => {
   return (
@@ -27,9 +30,11 @@ const LandingPage = () => {
       <EightSectiton/>
       <NineSection/>
       <TenthSection/>
-
+      <ButtomCard/>
+      <ButtomSection/>
+      <Footer/>
     </div>
   )
 }
 
-export default LandingPage
+export default LandingPage;

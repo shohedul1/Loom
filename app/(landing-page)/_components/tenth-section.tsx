@@ -99,8 +99,6 @@ const TenthSection = () => {
 
         </>
        
-       
-
       </Slider>
 
     </div>
