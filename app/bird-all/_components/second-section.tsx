@@ -157,4 +157,4 @@ const SecondSection = () => {
     )
 }
 
-export default SecondSection
+export default SecondSection;
