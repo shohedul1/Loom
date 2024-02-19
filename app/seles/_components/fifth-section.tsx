@@ -31,7 +31,7 @@ const FifthSection = () => {
 
                                 </div>
                                 <div className="text-sm md:text-md text-[#6f1f1d] leading-6 md:leading-10 font-light">
-                                Use Loom&apos;s platform to document knowledge so you can share valuable lessons and learn from each other.
+                                Use Loom’s platform to document knowledge so you can share valuable lessons and learn from each other.
 
                                 </div>
 

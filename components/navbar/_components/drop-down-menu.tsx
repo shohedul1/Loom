@@ -87,7 +87,7 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
                             <div>Design</div>
                         </Link>
                         <Link
-                            href={'/design'}
+                            href={'/marketing'}
                             className="flex pl-4 w-[200px] rounded-full items-center hover:text-lime-500 h-10 hover:bg-slate-200"
                             onClick={handleLinkClick}
                         >
