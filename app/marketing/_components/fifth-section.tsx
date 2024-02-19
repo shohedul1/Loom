@@ -31,7 +31,7 @@ const FifthSection = () => {
 
                                     </div>
                                     <div className="text-sm md:text-md text-[#efefef] leading-6 md:leading-10 font-light">
-                                    Categorize your videos by project or team in a secure workspace that's easy to manage.
+                                    Categorize your videos by project or team in a secure workspace that&apos;s easy to manage.
 
                                    </div>
 

@@ -21,7 +21,7 @@ const ThirdSection = () => {
                                     Instant polish
                                 </div>
                                 <div className="text-sm md:text-md text-[#1f3575] leading-6 md:leading-10 font-light">
-                                    Loom AI automatically removes 'ums', 'ahs', and awkward silences so you don't need to re-record
+                                    Loom AI automatically removes ums, ahs, and awkward silences so you don&apos;t need to re-record
 
                                 </div>
 

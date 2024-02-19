@@ -43,7 +43,7 @@ const ThirdSection = () => {
                             Make feedback fun
                             </div>
                             <div className="text-sm md:text-md text-[#1f3575] leading-6 md:leading-10 font-light">
-                            Quickly respond to teammates' videos with a few comments, or a few emoji to give two thumbs up or twenty.
+                            Quickly respond to teammates videos with a few comments, or a few emoji to give two thumbs up or twenty.
                             </div>
                         </div>
                     </div>
