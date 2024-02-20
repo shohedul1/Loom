@@ -11,6 +11,9 @@ import SeventhSection from './_components/seventh-section'
 import ButtomCard from './_components/buttom-card'
 import ButtomSection from './_components/bottom-section'
 import Footer from './_components/footer'
+import EightSection from './_components/eight-section'
+import NinthSection from './_components/ninth-section'
+import TenthSection from './_components/tenth-section'
 
 const Enterprice = () => {
   return (
@@ -24,6 +27,9 @@ const Enterprice = () => {
         <FifthSection/>
         <SixthSection/>
         <SeventhSection/>
+        <EightSection/>
+        <NinthSection/>
+        <TenthSection/>
         <ButtomCard/>
         <ButtomSection/>
         <Footer/>

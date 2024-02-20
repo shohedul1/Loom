@@ -61,11 +61,7 @@ const items: MenuItem[] = [
         options: [
             { label: "Bird Al", emoji: <Sparkles className="text-indigo-500" />, href: 'bird-all' },
             { label: "Enterprice", emoji: <Building2 className="text-gray-500" />, href: '/enterprice' },
-            { label: "Bird HO", emoji: <Home className="text-indigo-500" />, href: '/' },
-            { label: "Customers", emoji: <Smile className="text-rose-500" />, href: '/' },
-            { label: "Security", emoji: <Lock className="text-rose-500" />, href: '/' },
-            { label: "Video Hosting", emoji: <BarChart className="text-indigo-500" />, href: '/' },
-            { label: "Video Library", emoji: <GraduationCap className="text-yellow-500" />, href: '/' },
+           
         ]
 
     },
@@ -78,7 +74,7 @@ const items: MenuItem[] = [
             { label: "Help & Suppor", emoji: <LifeBuoy className="text-green-500" />, href: '/' },
             { label: "Download", emoji: <Download className="text-indigo-500" />, href: '/' },
             { label: "BirdSDK", emoji: <Code2Icon className="text-rose-500" />, href: '/' },
-            { label: "Screen Redorder", emoji: <Headphones className="text-indigo-500" />, href: 'screen-redorde' },
+            { label: "Screen Redorder", emoji: <Headphones className="text-indigo-500" />, href: 'screen-redorder' },
             { label: "Comminuty", emoji: <GraduationCap className="text-yellow-500" />, href: '/' },
         ],
 

@@ -139,21 +139,13 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
                             <div><Building2 className="w-6 h-6text-gray-500" /></div>
                             <div>Enterprice</div>
                         </Link>
-                        <Link
-                            href={'/'}
-                            className="flex pl-4 w-[200px] rounded-full items-center hover:text-lime-500 h-10 hover:bg-slate-200"
-                            onClick={handleLinkClick}
-                        >
-                            <div><Smile className="w-6 h-6 text-rose-500" /></div>
-                            <div>Customers</div>
-                        </Link>
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
                     <AccordionTrigger>Resurces</AccordionTrigger>
                     <AccordionContent>
                         <Link
-                            href={'/screen-redorde'}
+                            href={'/screen-redorder'}
                             className="flex pl-4 w-[200px] rounded-full items-center hover:text-lime-500 h-10 hover:bg-slate-200"
                             onClick={handleLinkClick}
                         >

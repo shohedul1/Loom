@@ -2,10 +2,10 @@ import { Download } from "lucide-react"
 
 const ButtomCard = () => {
   return (
-    <div className="py-20 px-10">
-        <div className="border p-10 items-center justify-center md:flex md:w-4/5 mx-auto md:p-20 rounded-[60px] md:rounded-[80px] md:justify-between">
-           <div className="text-2xl md:text-5xl items-center font-medium flex text-center px-6">
-           Loom works wherever you do.
+    <div className="pb-20 px-10 bg-[#e3f3ff]">
+        <div className="border p-10 items-center bg-[#fff] justify-center md:flex md:w-4/5 mx-auto md:p-20 rounded-[60px] md:rounded-[80px] md:justify-between">
+           <div className="text-2xl md:text-5xl items-center font-medium flex  px-6">
+           Ready to improve how your team communicates?
            </div>
            <div className="flex">
             <div className="mt-6 text-white mx-auto w-60 justify-between py-6 font-light rounded-[40px] border-4 border-indigo-400/90 md:py-6 bg-[#565add] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300">
