@@ -9,6 +9,7 @@ const SecoundSection = () => {
         </div>
 
         <div className='justify-center space-y-6 md:space-y-0 md:flex md:space-x-20'>
+            
             <div className='flex flex-col space-y-6'>
                 <div className='flex gap-3 items-center'>
                     <div className='bg-[#e8f5e3] p-3 items-center justify-center flex rounded-full'>
