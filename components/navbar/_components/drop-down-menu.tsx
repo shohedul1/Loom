@@ -213,7 +213,7 @@ const DropdrownMenu: React.FC<DropDrownMenuProps> = ({ onClose }) => {
                         <Button
                             className=" md:hidden xl:hidden text-md text-[#eff0ff] py-6 font-light bg-[#565add] rounded-[40px] border-4 border-[#9497e1] hover:scale-110 transition-all duration-300 shadow-md hover:shadow-indigo-300"
                         >
-                            Try Bird for Free
+                            Try Loom for Free
 
                         </Button>
                     </Link>
