@@ -33,7 +33,7 @@ const Faqs = () => {
             05 Choose which microphone you want to use (if available) and then click Start Recording to begin recording your screen capture.
           </div>
           <div>
-            06 When you're done, simply hit Stop Recording and the finished file will automatically upload to your Loom account.
+            06 When you&apos;re done, simply hit Stop Recording and the finished file will automatically upload to your Loom account.
           </div>
           <div>
             07 Want to send your Loom? The app automatically creates a link for easy sharing to any recipient or device.
